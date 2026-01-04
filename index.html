@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Climbing Grade Converter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="main-title">Climbing Grade Converter</h1>
+
+  <div class="container">
+
+    <!-- BOULDERING -->
+    <div class="card">
+      <h2>Boulder Grade Converter</h2>
+      <div class="subtitle">V-Scale ↔ Font-Scale</div>
+
+      <label for="vScale">V-Scale:</label>
+      <select id="vScale"></select>
+
+      <div class="divider"></div>
+
+      <label for="fontScale">Font-Scale:</label>
+      <select id="fontScale"></select>
+
+      <div class="footer">
+        Based on common consensus charts<br>
+      </div>
+    </div>
+
+    <!-- SPORT / LEAD -->
+    <div class="card">
+      <h2>Sport/Lead Grade Converter</h2>
+      <div class="subtitle">Yosemite Decimal System (YDS) ↔ French-Scale</div>
+
+      <label for="ydsScale">YDS:</label>
+      <select id="ydsScale"></select>
+
+      <div class="divider"></div>
+
+      <label for="frenchScale">French-Scale:</label>
+      <select id="frenchScale"></select>
+
+      <div class="footer">
+        Typical US ↔ EU sport grade conversion
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
